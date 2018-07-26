@@ -1,0 +1,61 @@
+/* your styles go here */
+
+#index-background {
+  background-image: url("../img/KC_Skyline_reduced_BW.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+#index-heading a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.col-lg-8 .col-md-offset-2 {
+  float: none;
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.vertical-center {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.greeting {
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.content-column-content-index p.lead-in-index {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #e4e4e4;
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.content-column-content-index p.p-index {
+  color: rgb(202, 202, 202);
+}
+
+.detail-box {
+  font-family: "Roboto", sans-serif;
+}
+
+.content-column-content-index {
+}
+
+.avatar {
+  width: 150px;
+}
